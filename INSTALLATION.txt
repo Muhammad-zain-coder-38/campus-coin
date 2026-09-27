@@ -1,0 +1,24 @@
+CAMPUS COIN — QUICK INSTALLATION
+
+1. Extract the folder named campus_coin into C:\xampp\htdocs\
+2. Start Apache and MySQL.
+3. Open http://localhost/phpmyadmin/
+4. Import campus_coin/database/campus_coin.sql
+5. Open http://localhost/campus_coin/
+
+Default local DB:
+Host 127.0.0.1
+Port 3306
+Database campus_coin
+User root
+Password empty
+
+Admin:
+admin@campuscoin.local
+Admin@12345
+
+Student:
+student@campuscoin.local
+Student@12345
+
+If MySQL uses a password, update config/database.php before login.
